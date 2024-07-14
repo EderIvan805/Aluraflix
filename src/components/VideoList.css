@@ -1,0 +1,46 @@
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .section-title {
+    margin: 20px 0;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .section-title.frontend {
+    color: #00BFFF;
+    border: 2px solid #00BFFF;
+    background-color: #001f3f;
+  }
+  
+  .section-title.backend {
+    color: #32CD32;
+    border: 2px solid #32CD32;
+    background-color: #002f00;
+  }
+  
+  .section-title.innovation {
+    color: #FFD700;
+    border: 2px solid #FFD700;
+    background-color: #332f00;
+  }
+  
+  .video-section {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+  }
+  
+  .video-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }

@@ -1,0 +1,88 @@
+.video-card {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #0a0a0a;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-image-container {
+  position: relative;
+  width: 100%;
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  overflow: hidden;
+}
+
+.video-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s;
+}
+
+.video-image-container:hover img {
+  opacity: 0.3;
+}
+
+.video-card-content {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 10px 10px 0 0;
+  box-sizing: border-box;
+}
+
+.video-image-container:hover .video-card-content {
+  display: flex;
+}
+
+.video-card-content h3 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.video-card-content p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.video-card-content .category {
+  color: inherit;
+  font-weight: bold;
+}
+
+.video-card-content .description {
+  font-size: 14px;
+}
+
+.video-card-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #0a0a0a;
+  border-radius: 0 0 10px 10px;
+}
+
+.video-card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1f8ef1;
+  color: white;
+}
+
+.video-card button:hover {
+  background-color: #105b96;
+}

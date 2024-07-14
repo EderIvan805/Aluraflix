@@ -1,0 +1,76 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "title": "¿Qué es Javascript(JS)?",
+      "category": "frontend",
+      "image": "https://fakeimg.pl/300x200/?text=JS",
+      "video": "https://youtube-link.com/1",
+      "description": "Descripción de ¿Qué es Javascript?"
+    },
+    {
+      "id": "2",
+      "title": "Cuándo usar let, var y const?",
+      "category": "frontend",
+      "image": "https://fakeimg.pl/300x200/?text=let,var,const",
+      "video": "https://youtube-link.com/2",
+      "description": "Descripción de Cuándo usar let, var y const?"
+    },
+    {
+      "id": "3",
+      "title": "Equipo Front End",
+      "category": "frontend",
+      "image": "https://fakeimg.pl/300x200/?text=Equipo+Front+End",
+      "video": "https://youtube-link.com/3",
+      "description": "Descripción de Equipo Front End"
+    },
+    {
+      "id": "4",
+      "title": "Spring Framework",
+      "category": "backend",
+      "image": "https://fakeimg.pl/300x200/?text=Spring+Framework",
+      "video": "https://youtube-link.com/4",
+      "description": "Descripción de Spring Framework"
+    },
+    {
+      "id": "5",
+      "title": "¿Qué es SQL y NoSQL?",
+      "category": "backend",
+      "image": "https://fakeimg.pl/300x200/?text=SQL+vs+NoSQL",
+      "video": "https://youtube-link.com/5",
+      "description": "Descripción de ¿Qué es SQL y NoSQL?"
+    },
+    {
+      "id": "6",
+      "title": "Conoce los ENUM",
+      "category": "backend",
+      "image": "https://fakeimg.pl/300x200/?text=ENUM",
+      "video": "https://youtube-link.com/6",
+      "description": "Descripción de Conoce los ENUM"
+    },
+    {
+      "id": "7",
+      "title": "¿Qué son las Soft Skills?",
+      "category": "innovation",
+      "image": "https://fakeimg.pl/300x200/?text=Soft+Skills",
+      "video": "https://youtube-link.com/7",
+      "description": "Descripción de ¿Qué son las Soft Skills?"
+    },
+    {
+      "id": "8",
+      "title": "Las 7 Soft Skills más deseadas",
+      "category": "innovation",
+      "image": "https://fakeimg.pl/300x200/?text=7+Soft+Skills",
+      "video": "https://youtube-link.com/8",
+      "description": "Descripción de Las 7 Soft Skills más deseadas"
+    },
+    {
+      "id": "9",
+      "title": "Metodologías ágiles",
+      "category": "innovation",
+      "image": "https://fakeimg.pl/300x200/?text=Metodologías+ágiles",
+      "video": "https://youtube-link.com/9",
+      "description": "Descripción de Metodologías ágiles"
+    }
+  ]
+}

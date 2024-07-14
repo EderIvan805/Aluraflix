@@ -1,0 +1,93 @@
+.edit-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #0a0a0a;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+  }
+  
+  .edit-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%; /* Asegura que todos los elementos del formulario tengan la misma longitud */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #111;
+    color: white;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: #1f8ef1;
+    outline: none;
+  }
+  
+  .image-preview {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain; /* Cambia cover a contain para que la imagen se ajuste dentro del contenedor */
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #1f8ef1;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #105b96;
+  }
+  
+  .btn-secondary {
+    background-color: #555;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #333;
+  }
+  
